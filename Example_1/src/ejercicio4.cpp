@@ -22,7 +22,7 @@ class Pareja{
             nveces = veces;
         }
 
-        int devolverDato(){
+        int getdevolverDato(){
             return dato;
         }
 
