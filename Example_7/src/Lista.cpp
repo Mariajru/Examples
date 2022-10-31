@@ -4,6 +4,11 @@
 
 using namespace std;
 
+Lista :: Lista(){
+    this->contenido = 0;
+}
+
+
 /* Método que muestra por pantalla el contenido 
 de una lista */
 void Lista::mostrar(){
