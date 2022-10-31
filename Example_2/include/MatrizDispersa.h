@@ -6,10 +6,10 @@
 
 class MatrizDispersa{
     private:
-        int nfilas;
-        int ncolumnas;
-        Valor *valores;
-        int numeroValores;
+        int nfilas;         //Num de filas de la Matriz
+        int ncolumnas;      //Num de columnas de la Matriz
+        Valor *valores;     //Puntero que señala al comienzo
+        int numeroValores;  //Numero de valores totales en la Matriz
     public:
         // Constructor por defecto
         MatrizDispersa();
