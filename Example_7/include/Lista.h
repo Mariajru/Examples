@@ -10,18 +10,16 @@ class Lista{
     public:
         /* Constructor por defecto. Inicia info = 0,
         y siguiente a 0 para el nuevo objeto */
-        Lista(){
-            this->contenido = 0;
-        }
+        Lista();
     
-    void mostrar();
-    void colocarFinal(double info);
-    void obtenerLongitud();
-    void eliminarFinal(int eliminar);
-    void Inicio(double info);
-    Celda *obtener(int posicion);
-    void agregarPosicion(Celda *pos, double dato);
-    void eliminar();
+        void mostrar();
+        void colocarFinal(double info);
+        void obtenerLongitud();
+        void eliminarFinal(int eliminar);
+        void Inicio(double info);
+        Celda *obtener(int posicion);
+        void agregarPosicion(Celda *pos, double dato);
+        void eliminar();
 };
 
 #endif
